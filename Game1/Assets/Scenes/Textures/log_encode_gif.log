@@ -1,0 +1,180 @@
+ffmpeg version N-92341-g66425add27 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 8.2.1 (GCC) 20181017
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth
+  libavutil      56. 23.100 / 56. 23.100
+  libavcodec     58. 36.100 / 58. 36.100
+  libavformat    58. 21.100 / 58. 21.100
+  libavdevice    58.  6.100 / 58.  6.100
+  libavfilter     7. 43.100 /  7. 43.100
+  libswscale      5.  4.100 /  5.  4.100
+  libswresample   3.  4.100 /  3.  4.100
+  libpostproc    55.  4.100 / 55.  4.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Fabian/AppData/Local/Temp/KritaFFmpegProgress.PZ9612'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/Asteroid.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Fabian/AppData/Local/Temp/KritaFFmpegProgress.PZ9612.
+[file @ 000002409142b340] Setting default whitelist 'file,crypto'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame%04d.png.
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0000.png' for reading
+[file @ 000002409146fe40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000024091477f80] Statistics: 227438 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0001.png' for reading
+[file @ 00000240914afb80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914b9e00] Statistics: 244887 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0002.png' for reading
+[file @ 00000240914f5e00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f5f00] Statistics: 208873 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0003.png' for reading
+[file @ 00000240914f5ec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6140] Statistics: 289187 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0004.png' for reading
+[file @ 00000240914f6140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6300] Statistics: 278363 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0005.png' for reading
+[file @ 00000240914f6300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6540] Statistics: 262968 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0006.png' for reading
+[file @ 00000240914f6540] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6700] Statistics: 296904 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0007.png' for reading
+[file @ 00000240914f6700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f68c0] Statistics: 287808 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0008.png' for reading
+[file @ 00000240914f68c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6a80] Statistics: 428066 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0009.png' for reading
+[file @ 00000240914f6a80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6c40] Statistics: 300790 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0010.png' for reading
+[file @ 00000240914f6c40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6d40] Statistics: 324376 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0011.png' for reading
+[file @ 00000240914f6d00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6e00] Statistics: 340245 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0012.png' for reading
+[file @ 00000240914f6dc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914afb80] Statistics: 337956 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0013.png' for reading
+[file @ 00000240914afb80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6dc0] Statistics: 367086 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0014.png' for reading
+[file @ 00000240914afb80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6dc0] Statistics: 335969 bytes read, 0 seeks
+[image2 @ 000002409146b740] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame0015.png' for reading
+[file @ 00000240914afb80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000240914f6dc0] Statistics: 271661 bytes read, 0 seeks
+Input #0, image2, from 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame%04d.png':
+  Duration: 00:00:00.64, start: 0.000000, bitrate: N/A
+    Stream #0:0, 16, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 11811:11811 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/palette.png.
+[NULL @ 000002409252c0c0] Opening 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/palette.png' for reading
+[file @ 00000240914f6dc0] Setting default whitelist 'file,crypto'
+[png_pipe @ 000002409252c0c0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000002409252c0c0] Before avformat_find_stream_info() pos: 0 bytes read:118 seeks:0 nb_streams:1
+[png_pipe @ 000002409252c0c0] After avformat_find_stream_info() pos: 118 bytes read:118 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/Asteroid.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/Asteroid.gif.
+[file @ 00000240922bff00] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[image2 @ 000002409146b740] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 4 times
+[graph 0 input from stream 0:0 @ 00000240914f6280] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 00000240914f6280] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000240914f6280] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 00000240914f6280] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 00000240914f6280] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 00000240914f6280] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 00000240914f6280] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:11811/11811 sws_param:flags=2
+[graph 0 input from stream 1:0 @ 00000240914f5e80] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 00000240914f5e80] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 00000240914f5e80] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 00000240914f5e80] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 00000240914f5e80] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 1:0 @ 00000240914f5e80] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 00000240914f5e80] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1 sws_param:flags=2
+[format @ 000002409263d780] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 0000024092573f00] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000240914afa40] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 00000240925b0dc0] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000240914afa40] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 0000024091476d80] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 000002409263dbc0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 0000024092573f00] w:1920 h:1080 fmt:rgba sar:11811/11811 -> w:1920 h:1080 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 00000240926524c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 00000240925b0dc0] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 00000240914afa40] [framesync @ 00000240925bbc88] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 00000240914afa40] [framesync @ 00000240925bbc88] Sync level 2
+Output #0, gif, to 'D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/Asteroid.gif':
+  Metadata:
+    encoder         : Lavf58.21.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 1920x1080 [SAR 1:1 DAR 16:9], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn, 24 tbc (default)
+    Metadata:
+      encoder         : Lavc58.36.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 00000240922bf2c0] 1036x838 image at pos (449;75) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1044x850 image at pos (449;75) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1149x866 image at pos (483;137) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1229x910 image at pos (403;113) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1212x954 image at pos (403;69) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1318x936 image at pos (297;69) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1440x944 image at pos (193;61) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1514x1061 image at pos (151;19) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1516x1061 image at pos (149;19) [area:1920x1080]
+frame=   10 fps=0.0 q=-0.0 size=       1kB time=00:00:00.39 bitrate=  16.4kbits/s speed=0.743x    [gif @ 00000240922bf2c0] 1464x920 image at pos (149;69) [area:1920x1080]
+[gif @ 00000240922bf2c0] 1484x930 image at pos (129;63) [area:1920x1080]
+    Last message repeated 1 times
+[gif @ 00000240922bf2c0] 1630x1061 image at pos (75;0) [area:1920x1080]
+    Last message repeated 1 times
+[gif @ 00000240922bf2c0] 1446x946 image at pos (121;29) [area:1920x1080]
+[Parsed_paletteuse_0 @ 00000240914afa40] [framesync @ 00000240925bbc88] Sync level 0
+[out_0_0 @ 0000024091472580] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   16 fps=0.0 q=-0.0 Lsize=     472kB time=00:00:00.64 bitrate=6039.5kbits/s speed=0.72x    
+[AVIOContext @ 000002409146b480] Statistics: 0 seeks, 2 writeouts
+video:471kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.192647%
+Input file #0 (D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/frame%04d.png):
+  Input stream #0:0 (video): 16 packets read (4802577 bytes); 16 frames decoded; 
+  Total: 16 packets (4802577 bytes) demuxed
+Input file #1 (D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/palette.png):
+  Input stream #1:0 (video): 1 packets read (118 bytes); 1 frames decoded; 
+  Total: 1 packets (118 bytes) demuxed
+Output file #0 (D:/Games/Unity/UnityGame/Game1/Assets/Scenes/Textures/Asteroid.gif):
+  Output stream #0:0 (video): 16 frames encoded; 16 packets muxed (482228 bytes); 
+  Total: 16 packets (482228 bytes) muxed
+17 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 00000240922c0000] Statistics: 0 seeks, 3 writeouts
+[AVIOContext @ 0000024091477c80] Statistics: 118 bytes read, 0 seeks
