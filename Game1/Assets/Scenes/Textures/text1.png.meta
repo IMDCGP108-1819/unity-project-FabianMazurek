@@ -6,6 +6,7 @@ TextureImporter:
     21300002: text1_1
     21300004: text1_2
     21300006: text1_3
+    21300008: text1_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -167,13 +168,33 @@ TextureImporter:
         width: 947
         height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 5b211c1b8f8d69247af962663cae85db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: text1_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 617
+        width: 1006
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6389ba74c0dd7c44b62ec4ca977656b
       vertices: []
       indices: 
       edges: []
