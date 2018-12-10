@@ -6,7 +6,7 @@ public class Elevator : MonoBehaviour {
      public Vector3 moveDirection = Vector3.up;
     public float TopPosition;
     public float BottomPosition;
-
+    public float ElevatorSpeed;
 	// Use this for initialization
 	void Start () {
 		
@@ -25,7 +25,7 @@ public class Elevator : MonoBehaviour {
             Debug.Log("going up");
             moveDirection = Vector3.up;
         }
-        transform.Translate(moveDirection * Time.deltaTime * 10);
+        transform.Translate(moveDirection * Time.deltaTime * ElevatorSpeed);
 
 	}
 }
