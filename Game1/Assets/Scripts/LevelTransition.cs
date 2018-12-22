@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-
-public class Checkpoint : MonoBehaviour {
-
+public class LevelTransition : MonoBehaviour
+{
     public LevelManager levelManager;
 
     // Use this for initialization
@@ -13,17 +13,11 @@ public class Checkpoint : MonoBehaviour {
         levelManager = FindObjectOfType<LevelManager>();
     }
 
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name == "Player")
         {
-            levelManager.currentCheckpoint = gameObject;
+            SceneManager.LoadScene("Level2");
         }
     }
 }
-
