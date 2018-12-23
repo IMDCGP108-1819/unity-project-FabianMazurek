@@ -11,6 +11,11 @@ TextureImporter:
     21300012: Options_6
     21300014: Options_7
     21300016: Options_8
+    21300018: Options_9
+    21300020: Options_10
+    21300022: Options_11
+    21300024: Options_12
+    21300026: Options_13
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -272,13 +277,113 @@ TextureImporter:
         width: 199
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 8f2ca52fcad5a0541976f7968b537ae0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Options_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 494
+        width: 261
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55319f52b12a40e48984e50e01cbe25c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Options_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 390
+        width: 221
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed958f8570a1bd4083a9b1de9e8e641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Options_11
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 388
+        width: 103
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7decd8d222a09d54092651d6e1da1be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Options_12
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 392
+        width: 140
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de99c2dde06bde0479acc741fda5b942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Options_13
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 390
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d26cfb76570b34781093c9a55c2f52
       vertices: []
       indices: 
       edges: []

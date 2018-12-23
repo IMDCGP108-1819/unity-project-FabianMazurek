@@ -17,9 +17,9 @@ public class KillPlayer : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)   //the things that 'kill' the player are triggers, when the player touches them the RespawnPlayer function from the levelManager script is called.
     {
-        if(other.name == "Player")
+        if(other.name == "Player")           
         {
             levelManager.RespawnPlayer();
         }

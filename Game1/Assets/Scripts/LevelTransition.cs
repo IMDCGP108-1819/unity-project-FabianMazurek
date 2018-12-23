@@ -13,7 +13,7 @@ public class LevelTransition : MonoBehaviour
         levelManager = FindObjectOfType<LevelManager>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)  //when the finish flag is touched by the player it loads the next level
     {
         if (other.name == "Player")
         {

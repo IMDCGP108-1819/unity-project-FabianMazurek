@@ -19,13 +19,13 @@ public class PlayerMovement : MonoBehaviour
     public float Deceleration = 3.5f;
     
    
-    // Use this for initialization
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void FixedUpdate()
     {
         //Code that checks if the player is on the ground.

@@ -7,16 +7,15 @@ public class Checkpoint : MonoBehaviour {
 
     public LevelManager levelManager;
 
-    // Use this for initialization
     void Start()
     {
         levelManager = FindObjectOfType<LevelManager>();
     }
 
 
-    // Update is called once per frame
+   
     void Update () {
-		
+		//when the player goes through a checkpoint trigger the currentCheckpoint is set that checkpoint.
 	}
     private void OnTriggerEnter2D(Collider2D other)
     {

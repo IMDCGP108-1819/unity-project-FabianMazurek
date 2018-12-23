@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        player = FindObjectOfType<PlayerMovement>();
+        player = FindObjectOfType<PlayerMovement>();  //establishes what the player is
         
 	}
 	
@@ -22,7 +22,7 @@ public class LevelManager : MonoBehaviour {
     public void RespawnPlayer()
     {
         Debug.Log("Player Respawn");
-        player.transform.position = currentCheckpoint.transform.position;
+        player.transform.position = currentCheckpoint.transform.position;  //when this fucntion is called it teleports the player to the currentCheckpoint's location.
         
     }
 }
