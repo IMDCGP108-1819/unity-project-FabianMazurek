@@ -12,11 +12,8 @@ public class Checkpoint : MonoBehaviour {
         levelManager = FindObjectOfType<LevelManager>();
     }
 
-
-   
-    void Update () {
 		//when the player goes through a checkpoint trigger the currentCheckpoint is set that checkpoint.
-	}
+	
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name == "Player")
