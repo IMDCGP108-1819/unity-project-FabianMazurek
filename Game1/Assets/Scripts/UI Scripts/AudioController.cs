@@ -9,7 +9,7 @@ public class AudioController : MonoBehaviour
     {
         
     }
-
+    //this audiocontroller script makes sure the music plays at the start of the first level and countinues playing as the player progresses.
     private static AudioController instance = null;
     public static AudioController Instance
     {

@@ -1,0 +1,28 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+public class KillPlayer : MonoBehaviour {
+
+    public LevelManager levelManager;
+    public int deaths = 0;
+    
+    
+	void Start ()
+    {
+        levelManager = FindObjectOfType<LevelManager>(); //finds levelManager script  
+	}
+	
+    private void OnTriggerEnter2D(Collider2D other)   /*the things that 'kill' the player are triggers, when the player touches them 
+                                                        the RespawnPlayer function from the levelManager script is called. Additionally
+                                                        1 death is added to the death counter*/
+    {
+        if(other.name == "Player")           
+        {
+            DeathCounter.deathValue += 1;
+            levelManager.RespawnPlayer();
+           
+        }
+    }
+}

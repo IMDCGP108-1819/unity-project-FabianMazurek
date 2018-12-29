@@ -3,21 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelTransition : MonoBehaviour
+public class LevelReset : MonoBehaviour
 {
-    public LevelManager levelManager;
-
-    // Use this for initialization
+    // Start is called before the first frame update
     void Start()
     {
-        levelManager = FindObjectOfType<LevelManager>();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)  //when the finish flag is touched by the player it loads the next level
     {
         if (other.name == "Player")
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("level2");
         }
     }
 }
