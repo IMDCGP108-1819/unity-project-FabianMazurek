@@ -21,22 +21,9 @@ public class DeathCounter : MonoBehaviour
 
     void Update()
     {
-        deaths.text = "Deaths: " + deathValue;   // When the player is killed, deathValue gets updated and the text changes, the score ui doesnt get destroyed between levels.
+        deaths.text = "Deaths: " + PlayerPrefs.GetInt("Deaths");   // When the player is killed, deathValue gets updated and the text changes, the score ui doesnt get destroyed between levels.
 
         
     }
-    private void Awake()
-    {
-        if (instance != null && instance != this)
-        {
-            Destroy(this.gameObject);
-            return;
-        }
-        else
-        {
-            instance = this;
-        }
-
-        DontDestroyOnLoad(this.gameObject);
-    }
+ 
 }

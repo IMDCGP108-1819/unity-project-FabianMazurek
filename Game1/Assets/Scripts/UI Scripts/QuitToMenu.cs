@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewGameButton : MonoBehaviour
+public class QuitToMenu : MonoBehaviour
 {
     public PauseMenu pauseMenu;
     public AudioController audioController;
@@ -13,7 +13,7 @@ public class NewGameButton : MonoBehaviour
         SceneManager.LoadScene(sceneIndex);
         PlayerPrefs.DeleteAll();
         pauseMenu.Resume();
-        audioController.ukulele.SetActive(true);
-        
+        audioController.ukulele.SetActive(false);
+
     }
 }

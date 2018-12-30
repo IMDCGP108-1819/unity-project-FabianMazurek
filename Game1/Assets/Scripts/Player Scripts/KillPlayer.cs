@@ -20,7 +20,7 @@ public class KillPlayer : MonoBehaviour {
     {
         if(other.name == "Player")           
         {
-            DeathCounter.deathValue += 1;
+            PlayerPrefs.SetInt("Deaths", PlayerPrefs.GetInt("Deaths") + 1);
             levelManager.RespawnPlayer();
            
         }

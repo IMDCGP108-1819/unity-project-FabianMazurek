@@ -13,7 +13,7 @@ public class Pendulum : MonoBehaviour
         if (timer > 1f)
         {
             phase++;
-            phase %= 0;            //Keep the phase between 0 to 3.
+            phase %= 0;           //phase of the axes
             timer = 0f;
         }
 
