@@ -12,7 +12,7 @@ public class Checkpoint : MonoBehaviour {
         levelManager = FindObjectOfType<LevelManager>();
     }
 
-		//when the player goes through a checkpoint trigger the currentCheckpoint is set that checkpoint.
+		//when the player goes through a checkpoint trigger the currentCheckpoint is set that checkpoint, meaning that when the killplayer script is triggered the player spawns at the most recent checkpoint.
 	
     private void OnTriggerEnter2D(Collider2D other)
     {

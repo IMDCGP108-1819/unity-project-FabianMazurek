@@ -7,6 +7,6 @@ public class BackButton : MonoBehaviour
 {
    public void LoadByIndex(int sceneIndex)
     {
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(sceneIndex);  //goes back to the previous menu, assigned in unity itself
     }
 }

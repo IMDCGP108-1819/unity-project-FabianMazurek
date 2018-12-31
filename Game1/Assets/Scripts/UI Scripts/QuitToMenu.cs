@@ -12,7 +12,7 @@ public class QuitToMenu : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
         PlayerPrefs.DeleteAll();
-        pauseMenu.Resume();
+        pauseMenu.Resume();                //quits the game and takes the player to the menu, deletes the deaths, turns off the ukulele and turns off the pause menu.
         audioController.ukulele.SetActive(false);
 
     }

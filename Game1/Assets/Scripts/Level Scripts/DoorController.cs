@@ -10,7 +10,7 @@ public class DoorController : MonoBehaviour
     public bool buttonIsPressed;
     private void Update()
     {
-        if (doorIsOpening == true)
+        if (doorIsOpening == true)                  //when the button trigger is pushed the gameobject tagged "door" is set to inactive along with the button itself.
         {
             Door.SetActive(false);
         }

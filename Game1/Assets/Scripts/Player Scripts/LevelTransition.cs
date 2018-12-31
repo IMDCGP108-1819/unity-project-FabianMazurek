@@ -15,7 +15,7 @@ public class LevelTransition : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other)  //when the finish flag is touched by the player it loads the next level
+    private void OnTriggerEnter2D(Collider2D other)  //when the finish flag is touched by the player it loads the next level by using the number from build index + 1.
     {
         if (other.name == "Player")
         {

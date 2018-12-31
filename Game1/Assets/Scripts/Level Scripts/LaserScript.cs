@@ -23,7 +23,7 @@ public class LaserScript : MonoBehaviour
             Debug.Log("going right");
             moveDirection = Vector3.right;
         }
-        if (transform.position.x > LeftPosition)
+        if (transform.position.x > LeftPosition)           //just the ElevatorHorizontal script used in a different way
         {
             Debug.Log("going left");
             moveDirection = Vector3.left;

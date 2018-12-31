@@ -11,7 +11,7 @@ public class LevelReset : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other)  //when the finish flag is touched by the player it loads the next level
+    private void OnTriggerEnter2D(Collider2D other)  //a script used to restart level2 when the player dies
     {
         if (other.name == "Player")
         {

@@ -9,6 +9,6 @@ public class QuitButton : MonoBehaviour
     public void doExitGame()
     {
         Application.Quit();
-        Debug.Log("game is exiting");
+        Debug.Log("game is exiting");  //quits the game
     }
 }

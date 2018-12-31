@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        offset = transform.position - PlayerTank.transform.position;
+        offset = transform.position - PlayerTank.transform.position;        //keeps the main camera on the player at all times without spinning with the asteroid
 	}
 	
 	// Update is called once per frame

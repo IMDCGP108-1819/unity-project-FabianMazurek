@@ -20,7 +20,7 @@ public class Elevator : MonoBehaviour {
             Debug.Log("going down");
             moveDirection = Vector3.down;
         }
-        if (transform.position.y < BottomPosition)
+        if (transform.position.y < BottomPosition)                  //causes the elevator to move between topPosition and bottomPosition at a constant speed
         {
             Debug.Log("going up");
             moveDirection = Vector3.up;

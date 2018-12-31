@@ -29,7 +29,7 @@ public class Movement : MonoBehaviour
     {
 /*
         if (Input.GetKey("Left") && Speed <= MaxSpeed)
-            Speed = Speed - Acceleration * Time.deltaTime;
+            Speed = Speed - Acceleration * Time.deltaTime;             //alternative way of moving that didnt really suit the gameplay i wanted
         else if (Input.GetKey("Right") && Speed >= -MaxSpeed)
             Speed = Speed + Acceleration * Time.deltaTime;
         else

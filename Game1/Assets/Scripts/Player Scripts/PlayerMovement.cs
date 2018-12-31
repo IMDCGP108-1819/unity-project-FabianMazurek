@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Code that checks if the player is on the ground.
         
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);   //determines whether the player is touching a platform using a radius around the player
         
     }
     void Update()
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-m_Speed, GetComponent<Rigidbody2D>().velocity.y);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-m_Speed, GetComponent<Rigidbody2D>().velocity.y);           //moves the player left and right
         }
     
         if (Input.GetKey(KeyCode.RightArrow))
@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
       
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
-            GetComponent<Rigidbody2D>().velocity += new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+            GetComponent<Rigidbody2D>().velocity += new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);   //allows the player to jump once and to a certain height as long as they are grounded
         }
         if (Input.GetKeyDown(KeyCode.UpArrow) && grounded)
         {

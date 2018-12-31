@@ -23,7 +23,7 @@ public class ElevatorHorizontal : MonoBehaviour
             Debug.Log("going right");
             moveDirection = Vector3.right;
         }
-        if (transform.position.x > LeftPosition)
+        if (transform.position.x > LeftPosition)            // the platform moves between two positions, changing direction when the Right or Left Positions are hit.
         {
             Debug.Log("going left");
             moveDirection = Vector3.left;
@@ -38,7 +38,7 @@ public class ElevatorHorizontal : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             
-            collision.collider.transform.SetParent(transform);
+            collision.collider.transform.SetParent(transform);       //as long as the player is in contact with the platform the player moves with it
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
