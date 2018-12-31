@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Audio;
 
 public class KillPlayer : MonoBehaviour {
 
@@ -22,7 +22,8 @@ public class KillPlayer : MonoBehaviour {
         {
             PlayerPrefs.SetInt("Deaths", PlayerPrefs.GetInt("Deaths") + 1);
             levelManager.RespawnPlayer();
-           
+
+            FindObjectOfType<AudioManager>().Play("PlayerDeath");
         }
     }
 }
