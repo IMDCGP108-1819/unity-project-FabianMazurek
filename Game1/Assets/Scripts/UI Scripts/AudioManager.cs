@@ -14,7 +14,7 @@ public class AudioManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
-            return;
+            return;                         //makes sure there is only one instance of audiomanger per scene since its set to DontDestroyOnLoad.
         }
         DontDestroyOnLoad(gameObject);
         foreach (Sound s in sounds)
@@ -31,7 +31,7 @@ public class AudioManager : MonoBehaviour
     
     public void Play(string name)
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
+        Sound s = Array.Find(sounds, sound => sound.name == name);      //this function finds the soundclip and plays it if Play("song"); is called
         s.source.Play();
     }
 
@@ -47,3 +47,4 @@ void Start()
     }
 
 }
+// used Brackeys video "introduction to audio" after struggling for days with getting this stuff to work

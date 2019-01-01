@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
         optionsMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-        AudioListener.pause = false;
+        //AudioListener.pause = false;
     }
     void Pause()            //when the game is paused, the pauseMenuUI is set to true, time and music are paused.
     {
@@ -39,7 +39,7 @@ public class PauseMenu : MonoBehaviour
         optionsMenuUI.SetActive(false);
         Time.timeScale = 0f;
         GameIsPaused = true;
-        AudioListener.pause = true;
+        //AudioListener.pause = true;
     }
    
 
